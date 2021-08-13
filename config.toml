@@ -1,4 +1,4 @@
 baseURL = "https://mrnordstrom.com/"
 languageCode = "en-us"
 title = "The NORD Notes"
-theme = "nordic"
+theme = "nordix"
