@@ -14,14 +14,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true
           fetch-depth: 0
+          submodules: true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
           extended: false
+          hugo-version: 'latest'
 
       - name: Build
         run: hugo --minify
@@ -31,7 +31,7 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           allow_empty_commit: true
-          # github_token: ${{ secrets.GITHUB_TOKEN }}
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          cname: mrnordstrom.com
+          force_orphan: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          cname: www.mrnordstrom.com
