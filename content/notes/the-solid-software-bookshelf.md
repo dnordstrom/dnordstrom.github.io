@@ -51,8 +51,8 @@ Hence, here is my list of books that provide a rock solid foundation for anyone 
 [Read as PDF](http://www.javier8a.com/itc/bd1/articulo.pdf)
 
 > This book isn't an introduction to object-oriented technology or design. Many books already do a good job of that...this isn't an advanced treatise either. It's a book of design patterns that describe simple and elegant solutions to specific problems in object-oriented software design....Once you understand the design patterns and have had an "Aha!" (and not just a "Huh?" experience with them, you won't ever think about object-oriented design in the same way. You'll have insights that can make your own designs more flexible, modular, reusable, and understandable--which is why you're interested in object-oriented technology in the first place, right?
-
----Preface
+>
+> ---Preface
 
 ## Clean Code
 

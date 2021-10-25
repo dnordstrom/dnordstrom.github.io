@@ -37,7 +37,8 @@ a:hover {
 }
 
 blockquote {
-  border-left: 2px solid #f0f0f0;
+  background: none;
+  border-left: 2px solid #EBCB8B;
   margin: 2ch 0 2ch 2ch;
   padding: 0 0 0 2ch;
   font-style: italic;
