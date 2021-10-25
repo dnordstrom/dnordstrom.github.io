@@ -12,7 +12,7 @@ It felt comforting having it there and walking past it all day. Whether you felt
 
 So today I suggested that we set up something similar at my current place of work, starting out with development related material.
 
-Hence, here is my list of books that provide a rock solid foundation for anyone in the business of creating software--in general, but most of all for the web.
+Hence, here is my list of books that provide a rock solid foundation for anyone in the business of creating software---in general, but most of all for the web.
 
 ## Refactoring: Improving the Design of Existing Code (2nd Edition)
 
