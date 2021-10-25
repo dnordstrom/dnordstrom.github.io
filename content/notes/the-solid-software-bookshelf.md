@@ -17,8 +17,8 @@ Hence, here is my list of books that provide a rock solid foundation for anyone 
 ## Refactoring: Improving the Design of Existing Code (2nd Edition)
 
 [Amazon](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599)  
-[Read as PDF (1st Edition)](https://github.com/PegasusWang/books-1/blob/master/software-development/Refactoring%20%20Improving%20the%20Design%20of%20Existing%20Code.pdf)  
-[Read online (2nd Edition)](https://booksvooks.com/nonscrolablepdf/refactoring-improving-the-design-of-existing-code-pdf.html)
+[Read as PDF (1st Edition, Java)](https://github.com/PegasusWang/books-1/blob/master/software-development/Refactoring%20%20Improving%20the%20Design%20of%20Existing%20Code.pdf)  
+[Read online (2nd Edition, JavaScript)](https://booksvooks.com/nonscrolablepdf/refactoring-improving-the-design-of-existing-code-pdf.html)
 
 > For more than twenty years, experienced programmers worldwide have relied on Martin Fowler’s Refactoring to improve the design of existing code and to enhance software maintainability, as well as to make existing code easier to understand.
 
