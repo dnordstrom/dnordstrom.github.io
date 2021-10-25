@@ -113,7 +113,7 @@ A newly released book by Douglas Crockford, one of the developers of JavaScript.
 
 ## One More Thing...
 
-There's actually tons of great books you can read online for free. [This GitHub repository](https://github.com/EbookFoundation/free-programming-books) provides a massive list of programming books sorted by language, and even links to other similar resources. And of course, you could just [google it](https://www.google.com/search?client=firefox-b-d&q=free+online+programming+books) and find even more.
+There's actually tons of great books you can read online for free. [This site](https://ebookfoundation.github.io/free-programming-books/) hosted on [GitHub](https://github.com/EbookFoundation/free-programming-books) provides a massive list of programming books sorted by language, and even links to other similar resources. And of course, you could just [google it](https://www.google.com/search?client=firefox-b-d&q=free+online+programming+books) and find even more.
 
 Knowledge really [is](https://github.com/yiailake/book) everywhere.
 
