@@ -1,0 +1,401 @@
+/* This CSS resource incorporates links to font software which is the
+valuable copyrighted property of Type Network, Inc. and/or their
+suppliers. You may not attempt to copy, install, redistribute,
+convert, modify or reverse engineer this font software. Please
+contact Type Network with any questions: www.typenetwork.com */
+
+@font-face {
+  font-family: "Input Sans Compressed";
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30327/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30327/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30327/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30327/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Sans Compressed";
+  font-display: swap;
+  font-weight: normal;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30328/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30328/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30328/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30328/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Sans Compressed";
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30329/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30329/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30329/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30329/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Sans Compressed";
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30330/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30330/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30330/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30330/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Sans Compressed";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30331/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30331/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30331/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30331/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Sans Compressed";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30332/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30332/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30332/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30332/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Sans Condensed";
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30353/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30353/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30353/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30353/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Sans Condensed";
+  font-display: swap;
+  font-weight: normal;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30355/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30355/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30355/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30355/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Sans Condensed";
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30356/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30356/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30356/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30356/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Sans Condensed";
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30362/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30362/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30362/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30362/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Sans Condensed";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30350/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30350/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30350/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30350/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Sans Condensed";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30351/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30351/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30351/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30351/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Mono Compressed";
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30333/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30333/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30333/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30333/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Mono Compressed";
+  font-display: swap;
+  font-weight: normal;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30334/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30334/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30334/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30334/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Mono Compressed";
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30335/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30335/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30335/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30335/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Mono Compressed";
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30336/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30336/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30336/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30336/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Mono Compressed";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30337/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30337/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30337/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30337/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Mono Compressed";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30338/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30338/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30338/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30338/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Mono Condensed";
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30352/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30352/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30352/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30352/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Mono Condensed";
+  font-display: swap;
+  font-weight: normal;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30348/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30348/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30348/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30348/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Mono Condensed";
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30347/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30347/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30347/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30347/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Mono Condensed";
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30349/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30349/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30349/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30349/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Mono Condensed";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30345/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30345/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30345/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30345/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Mono Condensed";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30346/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30346/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30346/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30346/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Serif Compressed";
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30339/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30339/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30339/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30339/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Serif Compressed";
+  font-display: swap;
+  font-weight: normal;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30340/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30340/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30340/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30340/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Serif Compressed";
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30341/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30341/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30341/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30341/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Serif Compressed";
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30342/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30342/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30342/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30342/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Serif Compressed Bd";
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30343/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30343/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30343/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30343/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Serif Compressed";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30344/fontfile/eot/?0b37e40b9ea8073f604c722ea3f74413d6a93b2f");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30344/fontfile/eot/?0b37e40b9ea8073f604c722ea3f74413d6a93b2f#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30344/fontfile/woff2/?0b37e40b9ea8073f604c722ea3f74413d6a93b2f") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30344/fontfile/woff/?0b37e40b9ea8073f604c722ea3f74413d6a93b2f") format("woff");
+}
+
+@font-face {
+  font-family: "Input Serif Condensed";
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30354/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30354/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30354/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30354/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Serif Condensed";
+  font-display: swap;
+  font-weight: normal;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30359/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30359/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30359/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30359/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Serif Condensed";
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30361/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30361/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30361/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30361/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Serif Condensed";
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30357/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30357/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30357/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30357/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Serif Condensed";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30358/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30358/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30358/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30358/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}
+
+@font-face {
+  font-family: "Input Serif Condensed";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30360/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93");
+  src: url("//cloud.typenetwork.com/projectLicenseWeb/30360/fontfile/eot/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93#iefix") format("embedded-opentype"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30360/fontfile/woff2/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff2"),
+  url("//cloud.typenetwork.com/projectLicenseWeb/30360/fontfile/woff/?808fbe2d67193c52cf4e63912b3b9bf036fd9a93") format("woff");
+}

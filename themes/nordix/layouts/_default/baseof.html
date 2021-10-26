@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html>
-{{- partial "head.html" . -}}
-<body>
-  <nav>
-    {{- partial "nav.html" . -}}
-  </nav>
-  <header>
-    {{- partial "header.html" . -}}
-  </header>
-  <main>
-    {{- block "main" . }}{{- end }}
-  </main>
-  <footer>
-    {{- partial "footer.html" . -}}
-  </footer>
-  {{- partial "scripts.html" . -}}
-</body>
+<html data-theme="light">
+  {{- partial "head.html" . -}}
+  <body>
+    <a id="mode-toggle" href="#dark">
+      <span class="iconify" data-icon="mdi:theme-light-dark" data-width="24" data-height="24"></span>
+    </a>
+    <nav>
+      {{- partial "nav.html" . -}}
+    </nav>
+    <header>
+      {{- partial "header.html" . -}}
+    </header>
+    <main>
+      {{- block "main" . }}{{- end }}
+    </main>
+    <footer>
+      {{- partial "footer.html" . -}}
+    </footer>
+    {{- partial "scripts.html" . -}}
+  </body>
 </html>

@@ -1,0 +1,193 @@
+@import "fonts.css";
+@import "nord.css";
+
+:root {
+  --font-heading: normal 400 2.5rem/1.6 'Input Sans Compressed', sans-serif;
+  --font-title: normal 700 1.8rem/1.6 'Input Sans Compressed', sans-serif;
+  --font-title-two: normal 500 1.4rem/1.6 'Input Sans Compressed', sans-serif;
+  --font-title-three: italic 500 1.2rem/1.6 'Input Sans Compressed', sans-serif;
+  --font-blockquote: italic 1.125rem/1.6 'Input Sans Compressed', sans-serif;
+  --font-body:  normal 1.125rem/1.6 'Input Sans Compressed', sans-serif;
+  --font-code:  normal 1.125rem/1.6 'Input Mono Compressed', sans-serif;
+  --font-small:  normal 0.95rem/1.6 'Input Mono Compressed', sans-serif;
+
+  --color-bg: var(--nord6);
+  --color-fg: var(--nord0);
+  --color-link: var(--nord10);
+  --color-blockquote-bg: var(--nord5);
+  --color-blockquote-border: var(--nord13);
+  --color-code-bg: var(--color-blockquote-bg);
+  --color-code-border: var(--nord4);
+  --color-small: var(--nord15);
+  --color-mode-toggler: var(--nord10);
+
+  --layout-width: 60ch;
+
+  --misc-time-delimiter: '·';
+}
+
+:root[data-theme='dark'] {
+  --color-bg: var(--nord0);
+  --color-fg: var(--nord4);
+  --color-link: var(--nord9);
+  --color-blockquote-bg: var(--nord2);
+  --color-blockquote-border: var(--nord13);
+  --color-code-bg: var(--color-blockquote-bg);
+  --color-code-border: var(--nord9);
+  --color-small: var(--nord15);
+  --color-mode-toggler: var(--nord3);
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background: var(--color-bg);
+  font: var(--font-body);
+  color: var(--color-fg);
+  margin: 60px 20px;
+}
+
+header,
+main {
+  margin: 0 auto;
+  max-width: var(--layout-width);
+}
+
+#mode-toggle,
+#mode-toggle:hover {
+  color: var(--color-mode-toggler);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border: none;
+}
+
+nav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+nav a:hover {
+  border: none;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h1 a,
+header h1 a:hover {
+  font: var(--font-heading);
+  border-bottom: none;
+}
+
+header p {
+  margin: 25px 0 45px 0;
+}
+
+article {
+  margin: 2.5rem 0 0;
+}
+
+article h1 {
+  font: var(--font-title);
+  margin: 0;
+}
+
+article h2 {
+  font: var(--font-title-two);
+  margin: 1.8em 0 0.6em;
+}
+
+article h3 {
+  font: var(--font-title-three);
+  margin: 1.8em 0 0.6em;
+}
+
+article > p:first-of-type {
+  margin-top: 1.6rem;
+}
+
+footer {
+  padding: 80px 0 20px;
+  text-align: center;
+}
+
+a {
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+a:hover {
+  border-bottom: 1px solid var(--color-link);
+}
+
+blockquote {
+  background: var(--color-blockquote-bg);
+  font-family: var(--font-blockquote);
+  margin: 3.5ch 0 3.5ch 2ch;
+  padding: 1.8ch 2.5ch 1.8ch 2.5ch;
+  font-style: italic;
+  border: 2px solid transparent;
+  border-left: 2px solid var(--color-blockquote-border);
+}
+
+blockquote cite {
+  margin: 0;
+  font-style: normal;
+}
+
+blockquote > p:first-child {
+  margin-top: 0;
+}
+
+blockquote > p:last-child {
+  margin-bottom: 0;
+}
+
+pre {
+  background: var(--color-code-bg);
+  border: 2px solid transparent;
+  border-left: 2px solid var(--color-code-border);
+  font-family: var(--font-code);
+  padding: 0 2.5ch 0 2.5ch;
+  margin: 3.5ch 0 3.5ch 2ch;
+}
+
+pre code {
+  padding: 0;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+code {
+  background: var(--color-code-bg);
+  font-family: var(--font-code);
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+#posts {
+  list-style-type: none;
+  font-size: 1.5em;
+  padding: 0;
+}
+
+#posts li {
+  display: flex;
+  align-items: center;
+}
+
+time {
+  color: var(--color-small);
+  font: var(--font-small);
+}
+
+#posts time::after {
+  content: var(--misc-time-delimiter);
+  padding: 0 1ch;
+}

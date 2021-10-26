@@ -21,7 +21,9 @@ Hence, here is my list of books that provide a rock solid foundation for anyone 
 [Read online (2nd Edition, JavaScript)](https://booksvooks.com/nonscrolablepdf/refactoring-improving-the-design-of-existing-code-pdf.html)
 
 > For more than twenty years, experienced programmers worldwide have relied on Martin Fowler’s Refactoring to improve the design of existing code and to enhance software maintainability, as well as to make existing code easier to understand.  
+>
 > [...]  
+>
 > This eagerly awaited new edition has been fully updated to reflect crucial changes in the programming landscape. **Refactoring, Second Edition, features an updated catalog of refactorings and includes JavaScript code examples**, as well as new functional examples that demonstrate refactoring without classes.
 >
 > ---Amazon

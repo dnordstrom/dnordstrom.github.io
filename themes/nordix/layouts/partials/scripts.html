@@ -1,2 +1,25 @@
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+<script>
+  (() => {
+    // Set up dark mode toggler
+    const root = document.getElementsByTagName('html')[0];
+    const button = document.getElementById('mode-toggle');
+    const savedTheme = localStorage.getItem('theme');
+
+    if (savedTheme) {
+      root.dataset.theme = savedTheme;
+      button.href = `#${savedTheme === 'dark' ? 'light' : 'dark'}`;
+    }
+
+    button.addEventListener('click', (event) => {
+      event.preventDefault()
+
+      const currentTheme = root.dataset.theme;
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+      root.dataset.theme = newTheme;
+      button.href = `#${currentTheme}`; // For showing in status bar
+      localStorage.setItem('theme', newTheme);
+    })
+  })();
+</script>
