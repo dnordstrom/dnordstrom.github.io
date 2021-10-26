@@ -92,6 +92,10 @@ article {
   margin: 2.5rem 0 0;
 }
 
+article p {
+  margin: 1.2em 0;
+}
+
 article h1 {
   font: var(--font-title);
   margin: 0;
