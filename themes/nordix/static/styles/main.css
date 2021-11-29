@@ -120,6 +120,13 @@ footer {
   text-align: center;
 }
 
+footer #icon-cc,
+footer #icon-cc:hover {
+  border: none;
+  display: block;
+  padding: 18px;
+}
+
 a {
   border-bottom: 1px solid transparent;
   text-decoration: none;
