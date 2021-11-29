@@ -19,7 +19,7 @@
   --color-code-bg: var(--color-blockquote-bg);
   --color-code-border: var(--nord4);
   --color-small: var(--nord15);
-  --color-mode-toggler: var(--nord9);
+  --color-icon-dark: var(--nord9);
 
   --layout-width: 60ch;
 
@@ -35,7 +35,7 @@
   --color-code-bg: var(--color-blockquote-bg);
   --color-code-border: var(--nord9);
   --color-small: var(--nord15);
-  --color-mode-toggler: var(--nord3);
+  --color-icon-dark: var(--nord3);
 }
 
 html {
@@ -57,7 +57,7 @@ main {
 
 #mode-toggle,
 #mode-toggle:hover {
-  color: var(--color-mode-toggler);
+  color: var(--color-icon-dark);
   position: absolute;
   top: 10px;
   left: 10px;
@@ -122,8 +122,9 @@ footer {
 
 footer #icon-cc,
 footer #icon-cc:hover {
-  border: none;
-  display: block;
+  border-bottom: none;
+  color: var(--color-icon-dark);
+  display: inline-block;
   padding: 18px;
 }
 
