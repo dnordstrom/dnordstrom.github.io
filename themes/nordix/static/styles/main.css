@@ -70,7 +70,7 @@ nav {
   right: 10px;
 }
 
-nav a
+nav a,
 nav a:hover {
   border-bottom: none;
   color: var(--color-icon-dark);
