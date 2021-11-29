@@ -70,8 +70,10 @@ nav {
   right: 10px;
 }
 
+nav a
 nav a:hover {
-  border: none;
+  border-bottom: none;
+  color: var(--color-icon-dark);
 }
 
 header h1 {
