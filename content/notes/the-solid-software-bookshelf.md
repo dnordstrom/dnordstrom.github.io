@@ -1,6 +1,6 @@
 ---
 title: The Solid Software Bookshelf
-date: "2019-03-07T01:00:00.000Z"
+date: 2019-03-07
 description: My list of books I believe provide a solid foundation and are great reads for anyone in the business of creating software. And maybe some other goodies I found online.
 ---
 
