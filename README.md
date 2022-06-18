@@ -1,7 +1,10 @@
 # The NORD Notes
 
-Much like the Olympics, this site is updated every four years.
+Much like the Olympics, my site is updated every four years.
 
 ## Under the hood
 
-Powered by [Hugo](https://gohugo.io) with a simple custom theme using Nord colors. Edited locally in a Nix shell. Built and hosted on [Cloudflare Pages](https://pages.cloudflare.com) with each push triggering a new build.
+- [Hugo](https://gohugo.io) powered
+- [Nord](https://www.nordtheme.com) based
+- [Nix shell](https://nixos.org/guides/nix-pills/developing-with-nix-shell.html) edited locally
+- [Cloudflare Pages](https://pages.cloudflare.com) hosted and built

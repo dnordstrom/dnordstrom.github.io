@@ -3,14 +3,14 @@
 @import "catppuccin.css";
 
 :root {
-  --font-heading: normal 400 2.5rem/1.6 'Input Sans Compressed', sans-serif;
-  --font-title: normal 700 1.8rem/1.6 'Input Sans Compressed', sans-serif;
-  --font-title-two: normal 500 1.4rem/1.6 'Input Sans Compressed', sans-serif;
-  --font-title-three: italic 500 1.2rem/1.6 'Input Sans Compressed', sans-serif;
-  --font-blockquote: italic 1.125rem/1.6 'Input Sans Compressed', sans-serif;
-  --font-body: normal 1.125rem/1.6 'Input Sans Compressed', sans-serif;
-  --font-code: normal 1.125rem/1.6 'Input Mono Compressed', sans-serif;
-  --font-small: normal 0.95rem/1.6 'Input Mono Compressed', sans-serif;
+  --font-heading: 2.375rem/1.6 'Input Sans Compressed', sans-serif; /* 38/16 = 1.375 */
+  --font-title: 700 1.875rem/1.6 'Input Sans Compressed', sans-serif; /* 30/16 = 1.875 */
+  --font-title-two: 1.625rem/1.6 'Input Sans Compressed', sans-serif; /* 26/16 = 1.625 */
+  --font-title-three: italic 1.25rem/1.6 'Input Sans Compressed', sans-serif; /* 20/16 = 1.125 */
+  --font-blockquote: italic 1.125rem/1.6 'Input Sans Condensed', sans-serif; /* 18/16 = 1.125 */
+  --font-body: 1rem/1.6 'Input Sans Condensed', sans-serif; /* 16/16 = 1 */
+  --font-code: 0.875rem/1.6 'PragmataPro Mono Liga', 'Input Mono Compressed', sans-serif; /* 18/16 = 1.125 */
+  --font-small: 0.938rem/1.6 'Input Sans Condensed', sans-serif; /* 15/16 = 0.938 */
 
   --color-bg: var(--nord6);
   --color-fg: var(--nord0);
@@ -48,7 +48,6 @@
 body {
   background: var(--color-bg);
   font: var(--font-body);
-  font-size: 1rem;
   color: var(--color-fg);
   margin: 60px 20px;
 }
@@ -132,7 +131,7 @@ footer {
 
 footer #icon-cc,
 footer #icon-cc:hover {
-  border-bottom: none;
+  border: none;
   color: var(--color-icon-dark);
   display: inline-block;
   padding: 18px;
@@ -151,7 +150,7 @@ a:hover {
 blockquote {
   background: var(--color-blockquote-bg);
   color: var(--color-blockquote-fg);
-  font-family: var(--font-blockquote);
+  font: var(--font-blockquote);
   margin: 3.5ch 0 3.5ch 2ch;
   padding: 1.8ch 2.5ch 1.8ch 2.5ch;
   font-style: italic;
@@ -172,13 +171,15 @@ blockquote > p:last-child {
   margin-bottom: 0;
 }
 
-pre {
+pre,
+code {
   background: var(--color-code-bg);
-  border: 2px solid transparent;
+  font: var(--font-code);
+}
+
+pre {
   border-left: 2px solid var(--color-code-border);
   color: var(--color-code-fg);
-  font-family: var(--font-code);
-  font-size: 0.875rem;
   padding: 1.5ch 1.35ch 1.35ch;
   margin: 3.5ch 0 3.5ch 2ch;
 }
@@ -191,10 +192,13 @@ pre code {
 }
 
 code {
-  background: var(--color-code-bg);
-  font-family: var(--font-code);
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 2px 4px;
+}
+
+time {
+  color: var(--color-small);
+  font: var(--font-small);
 }
 
 #posts {
@@ -206,11 +210,6 @@ code {
 #posts li {
   display: flex;
   align-items: center;
-}
-
-time {
-  color: var(--color-small);
-  font: var(--font-small);
 }
 
 #posts time::after {

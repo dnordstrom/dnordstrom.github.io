@@ -6,17 +6,24 @@ keywords:
 - firefox
 ---
 
-Is your Firefox sidebar resetting its width on each launch? No? Well, I guess it's just me then. Either way, it can be solved with the good old userChrome.css. 
+Does the width of your Firefox sidebar reset on each launch? Is it *just a bit* too small for Bitwarden and other cool stuff you constantly use? Our good old friend `userChrome.css` is here to help.
 
 ## What's a userChrome.css?
 
-It's a CSS file. More specifically, one that lets us change the styles of Firefox itself, such as the tab bar or the toolbar buttons. It lives in the profile directory which you can open from `about:support`. If `chrome/userChrome.css` doesn't exist, create it.
+Rather than web content, it lets us style Firefox itself. We'll need to create it since it doesn't exist by default. Go to `about:support`, open your profile folder, then add a `chrome` folder with an empty `userChrome.css`.
 
-The feature is disabled by default so we'll need to enable it. Go to `about:config`, tell the warning to fuck off, and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`. Restart Firefox and that's it. 
+```sh
+cd ~/.mozilla/firefox/myprofile.whatever
+mkdir chrome
+cd chrome
+touch userChrome.css
+```
 
-We can tell Firefox Sync to sync the setting by adding a boolean, `services.sync.prefs.sync.toolkit.legacyUserProfileCustomizations.stylesheets`, and setting it to `true`.
+Next we need to tell Firefox to actually use it, since Firefox 69 made it disabled by default. Go to `about:config`, tell the warning to kindly fuck off, and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`.
 
-This applies to all preferences: `services.sync.prefs.sync.<pref>`.
+If you use Firefox Sync like me and want this to be synced, add a boolean named `services.sync.prefs.sync.toolkit.` \*catching breath\* `legacyUserProfileCustomizations.stylesheets` and set it to `true`.
+
+_**LPT:** `services.sync.prefs.sync.[pref]` works for any preference._
 
 ## Changing the sidebar
 
