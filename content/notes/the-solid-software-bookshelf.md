@@ -1,7 +1,10 @@
 ---
-title: The Solid Software Bookshelf
-date: 2019-03-07
+title: The solid software bookshelf
+date: "2019-03-07"
 description: My list of books I believe provide a solid foundation and are great reads for anyone in the business of creating software. And maybe some other goodies I found online.
+keywords:
+- books
+- development
 ---
 
 One upon a time I worked at a web agency in Amsterdam. It was great times. We were talented and hungry, had lunch together every day, and the Grolsch was free and always fully stocked.

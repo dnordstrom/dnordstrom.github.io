@@ -1,7 +1,9 @@
 ---
 title: Own your Firefox sidebar width
-date: 2022-06-17
-description: Change the width and other aspects of your Firefox sidebar using userChrome.css.
+date: "2022-06-17"
+description: "Change the width and other aspects of your Firefox sidebar using userChrome.css."
+keywords:
+- firefox
 ---
 
 Is your Firefox sidebar resetting its width on each launch? No? Well, I guess it's just me then. Either way, it can be solved with the good old userChrome.css. 
