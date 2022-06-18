@@ -1,5 +1,6 @@
 @import "fonts.css";
 @import "nord.css";
+@import "catppuccin.css";
 
 :root {
   --font-heading: normal 400 2.5rem/1.6 'Input Sans Compressed', sans-serif;
@@ -7,9 +8,9 @@
   --font-title-two: normal 500 1.4rem/1.6 'Input Sans Compressed', sans-serif;
   --font-title-three: italic 500 1.2rem/1.6 'Input Sans Compressed', sans-serif;
   --font-blockquote: italic 1.125rem/1.6 'Input Sans Compressed', sans-serif;
-  --font-body:  normal 1.125rem/1.6 'Input Sans Compressed', sans-serif;
-  --font-code:  normal 1.125rem/1.6 'Input Mono Compressed', sans-serif;
-  --font-small:  normal 0.95rem/1.6 'Input Mono Compressed', sans-serif;
+  --font-body: normal 1.125rem/1.6 'Input Sans Compressed', sans-serif;
+  --font-code: normal 1.125rem/1.6 'Input Mono Compressed', sans-serif;
+  --font-small: normal 0.95rem/1.6 'Input Mono Compressed', sans-serif;
 
   --color-bg: var(--nord6);
   --color-fg: var(--nord0);
