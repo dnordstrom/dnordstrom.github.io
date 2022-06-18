@@ -26,6 +26,7 @@
   --color-icon-hover: var(--color-link);
 
   --layout-width: 65ch;
+  --layout-header-text-align: center;
 
   --misc-time-delimiter: '·';
 }
@@ -56,6 +57,13 @@ header,
 main {
   margin: 0 auto;
   max-width: var(--layout-width);
+}
+
+header,
+h1,
+time {
+  display: block;
+  text-align: var(--layout-header-text-align);
 }
 
 nav,

@@ -1,5 +1,7 @@
 # The NORD Notes
 
+[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
+
 Much like the Olympics, my site is updated every four years.
 
 ## Under the hood
