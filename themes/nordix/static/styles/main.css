@@ -69,25 +69,31 @@ time {
 nav,
 #mode-toggle {
   position: absolute;
-  top: 14px;
+  top: 0.875em;
 }
 
 nav {
-  right: 16px;
+  right: 1em;
 }
 
 #mode-toggle {
-  left: 16px;
+  left: 1em;
 }
 
 .icon {
   color: var(--color-icon);
-  transition: color 250ms ease;
+  fill: var(--color-icon);
 }
 
-.icon:hover {
+a.icon {
+  border: none;
+  transition: all 250ms ease;
+}
+
+a.icon:hover {
   border: none;
   color: var(--color-icon-hover);
+  fill: var(--color-icon-hover);
   transition-duration: 75ms;
 }
 
@@ -133,16 +139,10 @@ article > p:first-of-type {
 }
 
 footer {
+  color: var(--color-small);
+  line-height: 3em;
   padding: 80px 0 20px;
   text-align: center;
-}
-
-footer #icon-cc,
-footer #icon-cc:hover {
-  border: none;
-  color: var(--color-icon-dark);
-  display: inline-block;
-  padding: 18px;
 }
 
 a {
@@ -206,21 +206,30 @@ code {
 
 time {
   color: var(--color-small);
+  display: block;
   font: var(--font-small);
+  padding-top: 0.2em;
 }
 
 #posts {
+  font-size: 1.5rem;
+  line-height: 2em;
   list-style-type: none;
-  font-size: 1.5em;
   padding: 0;
 }
 
 #posts li {
-  display: flex;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
 }
 
-#posts time::after {
-  content: var(--misc-time-delimiter);
-  padding: 0 1ch;
-}
+/**
+ * Uncomment for delimiter between post time and title when flex-direction is row:
+ *
+ * #posts time::after {
+ *   content: var(--misc-time-delimiter);
+ *   padding: 0 1ch;
+ * }
+ */
