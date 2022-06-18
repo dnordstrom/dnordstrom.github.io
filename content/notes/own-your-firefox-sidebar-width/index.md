@@ -21,9 +21,11 @@ touch userChrome.css
 
 Next we need to tell Firefox to actually use it, since Firefox 69 made it disabled by default. Go to `about:config`, tell the warning to kindly fuck off, and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`.
 
-If you use Firefox Sync like me and want the setting synced, add a boolean `services.sync.prefs.sync.toolkit.legacyUserProfileCustomizations.stylesheets` set to `true`.
+<aside>
+  <strong>By the way,</strong> <code>services.sync.prefs.sync.[pref]</code> works for any preference.
+</aside>
 
-_**LPT:** `services.sync.prefs.sync.[pref]` works for any preference._
+If you use Firefox Sync like me and want the setting synced, add a boolean `services.sync.prefs.sync.toolkit.legacyUserProfileCustomizations.stylesheets` set to `true`.
 
 ## Changing the sidebar
 
@@ -47,7 +49,7 @@ Let's add two lines to remove any dumb-ass size restrictions as well:
 }
 ```
 
-## Down the rabbit hole
+### Down the rabbit hole
 
 Pretty much every aspect of the UI can be changed. But how do you know what to change, and how?
 

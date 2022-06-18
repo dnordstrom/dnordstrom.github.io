@@ -1,4 +1,6 @@
 @import "fonts.css";
+@import "murphy.css";
+@import "dracula.css";
 @import "catppuccin.css";
 
 :root {
@@ -7,7 +9,7 @@
   --font-title-two: 1.625rem/1.6 'Input Sans Compressed', sans-serif; /* 26/16 = 1.625 */
   --font-title-three: italic 1.25rem/1.6 'Input Sans Compressed', sans-serif; /* 20/16 = 1.125 */
   --font-blockquote: italic 1.125rem/1.6 'Input Sans Condensed', sans-serif; /* 18/16 = 1.125 */
-  --font-body: 1rem/1.6 'Input Sans Condensed', sans-serif; /* 16/16 = 1 */
+  --font-body: 1rem/1.7 'Input Sans Condensed', sans-serif; /* 16/16 = 1 */
   --font-code: 0.875rem/1.6 'PragmataPro Mono Liga', 'Input Mono Compressed', sans-serif; /* 18/16 = 1.125 */
   --font-small: 0.938rem/1.6 'Input Sans Condensed', sans-serif; /* 15/16 = 0.938 */
 
@@ -18,11 +20,12 @@
   --color-heading: var(--ctp-mocha-crust);
   --color-blockquote-fg: var(--color-fg);
   --color-blockquote-bg: var(--ctp-latte-mantle);
-  --color-blockquote-border: var(--ctp-latte-sapphire);
+  --color-blockquote-border: var(--ctp-latte-peach);
   --color-code-fg: var(--color-latte-base);
   --color-code-bg: var(--ctp-latte-crust);
-  --color-codeblock-border: var(--ctp-latte-sapphire);
   --color-codeblock-fg: var(--ctp-latte-text);
+  --color-codeblock-bg: var(--ctp-latte-crust);
+  --color-codeblock-border: var(--ctp-latte-sapphire);
   --color-footer-link: var(--ctp-latte-lavender);
   --color-small: var(--ctp-latte-overlay1);
   --color-icon: var(--ctp-latte-sapphire);
@@ -31,7 +34,9 @@
   --layout-width: 65ch;
   --layout-header-text-align: center;
 
-  --misc-time-delimiter: '·';
+  --box-border-radius: 0 10px 10px 0;
+  --box-offset-left: -1.5em;
+  --box-filter: drop-shadow(1px 1px 0 var(--ctp-latte-surface0));
 }
 
 :root[data-theme='dark'] {
@@ -42,15 +47,18 @@
   --color-heading: var(--ctp-latte-crust);
   --color-blockquote-fg: var(--color-fg);
   --color-blockquote-bg: var(--ctp-mocha-mantle);
-  --color-blockquote-border: var(--ctp-mocha-sapphire);
+  --color-blockquote-border: var(--ctp-mocha-peach);
   --color-code-fg: var(--color-mocha-base);
   --color-code-bg: var(--ctp-mocha-surface0);
-  --color-codeblock-border: var(--ctp-mocha-sapphire);
   --color-codeblock-fg: var(--ctp-latte-text);
+  --color-codeblock-bg: var(--ctp-macchiato-base);
+  --color-codeblock-border: var(--ctp-mocha-sapphire);
   --color-footer-link: var(--ctp-mocha-lavender);
   --color-small: var(--ctp-mocha-overlay1);
   --color-icon: var(--ctp-mocha-sapphire);
   --color-icon-hover: var(--ctp-mocha-sapphire);
+
+  --box-filter: drop-shadow(1px 1px 0 var(--ctp-mocha-crust));
 }
 
 body {
@@ -134,7 +142,7 @@ header p {
 }
 
 article {
-  margin: 2.5rem 0 0;
+  margin: 2.8em 0 0;
 }
 
 article p {
@@ -157,7 +165,32 @@ article h3 {
 }
 
 article > p:first-of-type {
-  margin-top: 1.6rem;
+  margin-top: 2.8em;
+}
+
+article aside {
+  background: var(--ctp-mocha-peach);
+  border-radius: 14px;
+  color: var(--ctp-mocha-crust);
+  filter: var(--box-filter);
+  font-size: 0.875rem;
+  margin: 2.25em 6.5em 2.5em -0.325em;
+  padding: 0.4em 0.95em 0.35em;
+}
+
+article aside strong {
+  color: var(--ctp-mocha-crust);
+  font-size: inherit;
+}
+
+article aside code {
+  background: none;
+  color: var(--ctp-macchiato-surface0);
+}
+
+article aside code::before,
+article aside code::after {
+  content: "`";
 }
 
 footer {
@@ -188,11 +221,13 @@ a:hover {
 blockquote {
   background: var(--color-blockquote-bg);
   color: var(--color-blockquote-fg);
+  filter: var(--box-filter);
   font: var(--font-blockquote);
-  margin: 3.5ch 0 3.5ch 2ch;
-  padding: 1.8ch 2.5ch 1.8ch 2.5ch;
+  margin: 2.25em 2.5em 2.5em var(--box-offset-left);
+  padding: 1.35em 1.75em 1.2em;
   font-style: italic;
   border-left: 4px solid var(--color-blockquote-border);
+  border-radius: var(--box-border-radius);
 }
 
 blockquote cite {
@@ -214,10 +249,13 @@ code {
 }
 
 pre {
+  background: var(--color-codeblock-bg);
   border-left: 4px solid var(--color-codeblock-border);
+  border-radius: var(--box-border-radius);
   color: var(--color-codeblock-fg);
-  padding: 1.5ch 1.35ch 1.35ch;
-  margin: 3.5ch 0 3.5ch 2ch;
+  filter: var(--box-filter);
+  margin: 2.25em 6.5em 2.5em var(--box-offset-left);
+  padding: 1.15em 0.75em 0.95em;
 }
 
 pre code {
@@ -242,7 +280,6 @@ time {
 
 #posts {
   font-size: 1.5rem;
-  line-height: 2em;
   list-style-type: none;
   padding: 0;
 }
@@ -251,14 +288,10 @@ time {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  margin-bottom: 1.125em;
 }
 
-/**
- * Uncomment for delimiter between post time and title when flex-direction is row:
- *
- * #posts time::after {
- *   content: var(--misc-time-delimiter);
- *   padding: 0 1ch;
- * }
- */
+#posts li a {
+  margin-bottom: 0.1em;
+}
+
