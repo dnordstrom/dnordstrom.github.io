@@ -21,7 +21,8 @@
   --color-code-bg: var(--color-blockquote-bg);
   --color-code-border: var(--nord4);
   --color-small: var(--nord15);
-  --color-icon: var(--nord9);
+  --color-icon: var(--nord8);
+  --color-icon-hover: var(--color-link);
 
   --layout-width: 65ch;
 
