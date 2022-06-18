@@ -21,7 +21,7 @@ touch userChrome.css
 
 Next we need to tell Firefox to actually use it, since Firefox 69 made it disabled by default. Go to `about:config`, tell the warning to kindly fuck off, and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`.
 
-If you use Firefox Sync like me and want this to be synced, add a boolean named `services.sync.prefs.sync.toolkit.` \*catching breath\* `legacyUserProfileCustomizations.stylesheets` and set it to `true`.
+If you use Firefox Sync like me and want the setting synced, add a boolean `services.sync.prefs.sync.toolkit.legacyUserProfileCustomizations.stylesheets` set to `true`.
 
 _**LPT:** `services.sync.prefs.sync.[pref]` works for any preference._
 
@@ -35,9 +35,9 @@ We can now screw up the UI as much as we want! Let's set a default width:
 }
 ```
 
-Restart Firefox and we're done.
+Restart Firefox and we're done!
 
-To remove the maximum and minimum widths, add a couple of lines:
+Let's add two lines to remove any dumb-ass size restrictions as well:
 
 ```css
 #sidebar {
@@ -51,6 +51,8 @@ To remove the maximum and minimum widths, add a couple of lines:
 
 Pretty much every aspect of the UI can be changed. But how do you know what to change, and how?
 
-Searching the web is one way, but you'd be working blind. Instead inspect the styles on your own and play around with changes on-the-fly. First hit `Ctrl-Shift-I`, `F1`, and tick "Enable browser chrome and add-on debugging toolboxes" and "Enable remote debugging." Now open the "Browser Toolbox" with `Ctrl+Shift+Alt+I`. Enjoy!
+Searching the web is one way, but you'd be working blind. Instead inspect the structure and styles on your own and play around with changes on-the-fly.
+
+You'll need the full "Browser Toolbox" for this. Hit `Ctrl+Shift+I` for devtools, then `F1`. Tick "Enable browser chrome and add-on debugging toolboxes" and "Enable remote debugging." Open it with `Ctrl+Shift+Alt+I`. Enjoy!
 
 To also disable hundreds of hours of your life, check out [r/FirefoxCSS](https://reddit.com/r/FirefoxCSS) on Reddit. It's a treat. My own tweaks are less of a treat, but nonetheless available [on GitHub](https://github.com/dnordstrom/dotfiles/tree/main/config/firefox).
