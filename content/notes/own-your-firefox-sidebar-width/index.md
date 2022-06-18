@@ -49,7 +49,7 @@ Let's add two lines to remove any dumb-ass size restrictions as well:
 }
 ```
 
-### Down the rabbit hole
+## Down the rabbit hole
 
 Pretty much every aspect of the UI can be changed. But how do you know what to change, and how?
 
