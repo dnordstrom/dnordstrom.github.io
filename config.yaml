@@ -18,7 +18,6 @@ markup:
     lineNos: true
     noClasses: false
     lineNumbersInTable: false
-    style: murphy
     tabWidth: 2
   goldmark:
     renderer:
