@@ -21,7 +21,7 @@
   --color-code-bg: var(--color-blockquote-bg);
   --color-code-border: var(--nord4);
   --color-small: var(--nord15);
-  --color-icon-dark: var(--nord9);
+  --color-icon: var(--nord9);
 
   --layout-width: 65ch;
 
@@ -39,7 +39,8 @@
   --color-code-bg: var(--color-blockquote-bg);
   --color-code-border: var(--color-blockquote-border);
   --color-small: var(--nord15);
-  --color-icon-dark: var(--nord3);
+  --color-icon: var(--nord3);
+  --color-icon-hover: var(--color-link);
 }
 
 body {
@@ -56,25 +57,29 @@ main {
   max-width: var(--layout-width);
 }
 
-#mode-toggle,
-#mode-toggle:hover {
-  color: var(--color-icon-dark);
+nav,
+#mode-toggle {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  border: none;
+  top: 14px;
 }
 
 nav {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  right: 16px;
 }
 
-nav a,
-nav a:hover {
-  border-bottom: none;
-  color: var(--color-icon-dark);
+#mode-toggle {
+  left: 16px;
+}
+
+.icon {
+  color: var(--color-icon);
+  transition: color 250ms ease;
+}
+
+.icon:hover {
+  border: none;
+  color: var(--color-icon-hover);
+  transition-duration: 75ms;
 }
 
 header h1 {
