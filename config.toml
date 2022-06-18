@@ -4,6 +4,14 @@ title = "The NORD Notes"
 theme = "nordix"
 
 [markup]
+  [markup.highlight]
+    guessSyntax = true
+    hl_inline = false
+    lineNos = true
+    lineNumbersInTable = false
+    noHl = false
+    style = 'murphy'
+    tabWidth = 2
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true

@@ -14,14 +14,16 @@
   --color-bg: var(--nord6);
   --color-fg: var(--nord0);
   --color-link: var(--nord10);
+  --color-blockquote-fg: var(--color-fg);
   --color-blockquote-bg: var(--nord5);
   --color-blockquote-border: var(--nord13);
+  --color-code-fg: var(--color-fg);
   --color-code-bg: var(--color-blockquote-bg);
   --color-code-border: var(--nord4);
   --color-small: var(--nord15);
   --color-icon-dark: var(--nord9);
 
-  --layout-width: 60ch;
+  --layout-width: 65ch;
 
   --misc-time-delimiter: '·';
 }
@@ -30,21 +32,20 @@
   --color-bg: var(--nord0);
   --color-fg: var(--nord4);
   --color-link: var(--nord9);
+  --color-blockquote-fg: var(--color-bg);
   --color-blockquote-bg: var(--nord2);
   --color-blockquote-border: var(--nord13);
+  --color-code-fg: var(--color-bg);
   --color-code-bg: var(--color-blockquote-bg);
-  --color-code-border: var(--nord9);
+  --color-code-border: var(--color-blockquote-border);
   --color-small: var(--nord15);
   --color-icon-dark: var(--nord3);
-}
-
-html {
-  font-size: 14px;
 }
 
 body {
   background: var(--color-bg);
   font: var(--font-body);
+  font-size: 1rem;
   color: var(--color-fg);
   margin: 60px 20px;
 }
@@ -142,6 +143,7 @@ a:hover {
 
 blockquote {
   background: var(--color-blockquote-bg);
+  color: var(--color-blockquote-fg);
   font-family: var(--font-blockquote);
   margin: 3.5ch 0 3.5ch 2ch;
   padding: 1.8ch 2.5ch 1.8ch 2.5ch;
@@ -167,12 +169,15 @@ pre {
   background: var(--color-code-bg);
   border: 2px solid transparent;
   border-left: 2px solid var(--color-code-border);
+  color: var(--color-code-fg);
   font-family: var(--font-code);
-  padding: 0 2.5ch 0 2.5ch;
+  font-size: 0.875rem;
+  padding: 1.5ch 1.35ch 1.35ch;
   margin: 3.5ch 0 3.5ch 2ch;
 }
 
 pre code {
+  background: none;
   padding: 0;
   margin: 0;
   white-space: pre-wrap;
