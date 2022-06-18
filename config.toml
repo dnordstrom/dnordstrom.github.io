@@ -10,7 +10,6 @@ copyright = "Creative Commons Attribution-NoDerivatives 4.0 International Licens
 [markup]
   [markup.highlight]
     guessSyntax = true
-    hl_inline = true
     lineNos = true
     lineNumbersInTable = false
     style = 'murphy'
