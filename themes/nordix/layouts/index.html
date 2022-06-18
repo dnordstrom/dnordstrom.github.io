@@ -2,8 +2,8 @@
   <ul id="posts">
     {{ range (where site.RegularPages "Type" "eq" "notes") }}
       <li>
-        <time datetime="{{ time .Date }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
         <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+        <time datetime="{{ time .Date }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
       </li>
     {{ end }}
   </ul>

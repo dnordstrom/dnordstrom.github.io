@@ -1,5 +1,4 @@
 @import "fonts.css";
-@import "nord.css";
 @import "catppuccin.css";
 
 :root {
@@ -12,18 +11,21 @@
   --font-code: 0.875rem/1.6 'PragmataPro Mono Liga', 'Input Mono Compressed', sans-serif; /* 18/16 = 1.125 */
   --font-small: 0.938rem/1.6 'Input Sans Condensed', sans-serif; /* 15/16 = 0.938 */
 
-  --color-bg: var(--nord6);
-  --color-fg: var(--nord0);
-  --color-link: var(--nord10);
+  --color-bg: var(--ctp-latte-base);
+  --color-fg: var(--ctp-latte-text);
+  --color-link: var(--ctp-latte-blue);
+  --color-title: var(--ctp-latte-peach);
+  --color-heading: var(--ctp-mocha-crust);
   --color-blockquote-fg: var(--color-fg);
-  --color-blockquote-bg: var(--nord5);
-  --color-blockquote-border: var(--nord13);
+  --color-blockquote-bg: var(--ctp-latte-mantle);
+  --color-blockquote-border: var(--ctp-latte-sapphire);
   --color-code-fg: var(--color-fg);
   --color-code-bg: var(--color-blockquote-bg);
-  --color-code-border: var(--nord4);
-  --color-small: var(--nord15);
-  --color-icon: var(--nord8);
-  --color-icon-hover: var(--color-link);
+  --color-code-border: var(--color-blockquote-border);
+  --color-footer-link: var(--ctp-latte-sky);
+  --color-small: var(--ctp-latte-overlay1);
+  --color-icon: var(--ctp-latte-sapphire);
+  --color-icon-hover: var(--ctp-latte-sapphire);
 
   --layout-width: 65ch;
   --layout-header-text-align: center;
@@ -32,18 +34,21 @@
 }
 
 :root[data-theme='dark'] {
-  --color-bg: var(--nord0);
-  --color-fg: var(--nord4);
-  --color-link: var(--nord9);
-  --color-blockquote-fg: var(--color-bg);
-  --color-blockquote-bg: var(--nord2);
-  --color-blockquote-border: var(--nord13);
+  --color-bg: var(--ctp-mocha-base);
+  --color-fg: var(--ctp-mocha-text);
+  --color-link: var(--ctp-mocha-blue);
+  --color-title: var(--ctp-mocha-peach);
+  --color-heading: var(--ctp-latte-crust);
+  --color-blockquote-fg: var(--color-fg);
+  --color-blockquote-bg: var(--ctp-mocha-mantle);
+  --color-blockquote-border: var(--ctp-mocha-sapphire);
   --color-code-fg: var(--color-bg);
   --color-code-bg: var(--color-blockquote-bg);
   --color-code-border: var(--color-blockquote-border);
-  --color-small: var(--nord15);
-  --color-icon: var(--nord3);
-  --color-icon-hover: var(--color-link);
+  --color-footer-link: var(--ctp-mocha-sky);
+  --color-small: var(--ctp-mocha-overlay1);
+  --color-icon: var(--ctp-mocha-sapphire);
+  --color-icon-hover: var(--ctp-mocha-sapphire);
 }
 
 body {
@@ -66,6 +71,19 @@ time {
   text-align: var(--layout-header-text-align);
 }
 
+header h1 a {
+  color: var(--color-title);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-heading);
+}
+
 nav,
 #mode-toggle {
   position: absolute;
@@ -83,6 +101,7 @@ nav {
 .icon {
   color: var(--color-icon);
   fill: var(--color-icon);
+  opacity: 0.5;
 }
 
 a.icon {
@@ -94,6 +113,7 @@ a.icon:hover {
   border: none;
   color: var(--color-icon-hover);
   fill: var(--color-icon-hover);
+  opacity: 1;
   transition-duration: 75ms;
 }
 
@@ -145,6 +165,14 @@ footer {
   text-align: center;
 }
 
+footer a {
+  color: var(--color-footer-link);
+}
+
+footer a:hover {
+  border-color: var(--color-footer-link);
+}
+
 a {
   border-bottom: 1px solid transparent;
   text-decoration: none;
@@ -162,8 +190,7 @@ blockquote {
   margin: 3.5ch 0 3.5ch 2ch;
   padding: 1.8ch 2.5ch 1.8ch 2.5ch;
   font-style: italic;
-  border: 2px solid transparent;
-  border-left: 2px solid var(--color-blockquote-border);
+  border-left: 4px solid var(--color-blockquote-border);
 }
 
 blockquote cite {
@@ -186,7 +213,7 @@ code {
 }
 
 pre {
-  border-left: 2px solid var(--color-code-border);
+  border-left: 4px solid var(--color-code-border);
   color: var(--color-code-fg);
   padding: 1.5ch 1.35ch 1.35ch;
   margin: 3.5ch 0 3.5ch 2ch;
