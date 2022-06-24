@@ -1,9 +1,11 @@
-<h1>
-  <a href="/" title="Home">{{ $.Site.Title }}</a>
-</h1>
+<header class="header">
+  <h1 class="header__title">
+    <a href="/" title="Home">{{ $.Site.Title }}</a>
+  </h1>
 
-{{ if .IsHome }}
-  <p>
-    Creative technical problem-solver. Developer of whatever is needed. Advocate of technological openness, transparency, privacy, and diplomacy. Audiophilosopher. 💙
-  </p>
-{{ end }}
+  {{ if .IsHome }}
+    <p class="header__intro">
+      Creative technical problem-solver. Developer of whatever is needed. Advocate of technological openness, transparency, privacy, and diplomacy. Audiophilosopher. 💙
+    </p>
+  {{ end }}
+</header>

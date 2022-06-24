@@ -2,7 +2,7 @@
   (() => {
     // Set up dark mode toggler
     const root = document.getElementsByTagName('html')[0];
-    const button = document.getElementById('mode-toggle');
+    const button = document.getElementsByClassName('nav__toggle')[0];
     const savedTheme = localStorage.getItem('theme');
 
     if (savedTheme) {
