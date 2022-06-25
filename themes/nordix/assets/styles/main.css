@@ -393,6 +393,14 @@ a.icon:hover {
 }
 
 /**
+ * Comments
+ */
+
+.note__comments {
+  margin-top: 3.5em;
+}
+
+/**
  * FOOTER
  */
 
