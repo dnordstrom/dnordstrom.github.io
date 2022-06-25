@@ -1,9 +1,26 @@
 <title>{{ with .Param "title" }}{{ . }} - {{ end}}The NORD Notes</title>
+
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+
 <meta name="description" content="Creative technical problem-solver. Developer of whatever is needed. Advocate of technological openness, transparency, privacy, and diplomacy. Audiophilosopher.">
 <meta name="author" content="Daniel Nordstrom">
-<link rel="stylesheet" href="/styles/main.css">
-<link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL }}/index.xml" title="{{ .Site.Title }}">
 
+<link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL }}index.xml" title="{{ .Site.Title }}">
+
+{{ $styleMain := resources.Get "styles/main.css" | resources.Minify }}
+{{ $styleFonts := resources.Get "styles/fonts.css" | resources.Minify }}
+{{ $styleMurphy := resources.Get "styles/murphy.css" | resources.Minify }}
+{{ $styleDracula := resources.Get "styles/dracula.css" | resources.Minify }}
+{{ $styleCatppuccin := resources.Get "styles/catppuccin.css" | resources.Minify }}
+{{ $styleSlice := slice $styleCatppuccin $styleDracula $styleMurphy $styleFonts $styleMain }}
+{{ $styleBundle := $styleSlice | resources.Concat "styles/bundle.css" }}
+
+<link rel="stylesheet" href="{{ $styleBundle.Permalink }}">
+
+{{ $scriptMain := resources.Get "scripts/main.js" | resources.Minify }}
+{{ $scriptBundle := slice $scriptMain | resources.Concat "scripts/bundle.js" }}
+
+<script type="text/javascript" src="{{ $scriptBundle.Permalink }}" defer></script>
+<script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
